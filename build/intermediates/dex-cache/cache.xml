@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/9d1697cd88c9ae8f491d1ee3c6f540c05813868e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_e269568162e8a97a9fa8f06a9759ad32e39a5088.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/db43357442bf85f4afc62be90326ac5a5fcece78/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_b210f6b741c04a1687ddb70858bae51412465a4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/5a6a86e6dac5bd3bcb31af04315aa48db749fe3f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_b19986f8dae7a910b8b2102eac8c06cd40049bd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/2f456df71c817d2d68cecb3a9790f86d8c1300e1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_6583d7a0940c185bf7e65dfbb90967120e3b9841.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/bde766bc21df55a8f7bd06bc011e3fe0bae5abdb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_9dd370bd746a67c8a19a31ddbd344113582b71aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_aaad8b2e25a3336c0c9bcc6405905dc09065121c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/35485a12b5d85625ebf908ff184d3c892c04d4e0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_daed70f299bd73ea423eb214845066605ba87d07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/02dcc86f50a4b009b985284ff029792e2fa73391/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_2d105b8f24012c0e2c5fa309808f3ed5e1141cc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/9198abafb30b680944a3735cda874e45824436c1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_c49b9a900e7fff3be77cd74160fe03d7a60a8bbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/133cc05d78afc0ca476f04af068065234e327b84/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_4d240a25054cc4b209431bdcae28c4df6a8194ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/6eaa4797b1b96074b083b8b5512e3182a1a3c7cc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_07aa1b5da3e2d88e02d91d1e737f1ec866976e50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/f67ce7a2ee48b5bfeec38cb067168ad2d8c65e0f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_f7e0e14b0af3db2d361a817a35efa70dd28202fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_a80079b3da116d3f951b91c1490ba4bfcb89e597.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/d8c095a77e50259ee659e6e972356422a85c31aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_e9ffe1664c4f8dc3d740995c49d1b63cabe6fbe2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/joebuntu/.android/build-cache/1b7dc7f5459284e602335eb9cd8d879596939956/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/home/joebuntu/AndroidStudioProjects/NotepadDemo/app/build/intermediates/pre-dexed/debug/classes_39b43f7e48d930e2ea438332aa6040b0aabc5d25.jar" />
+    </item>
+
+</items>
