@@ -30,10 +30,12 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class MainActivity extends AppCompatActivity  {
-EditText file,usernameInput;
+EditText file,usernameInput, head;
     AlertDialog.Builder dialog;
-    String[] name, document;
+    DatabaseSetup database;
+    String name, document;
     NoteContent nc;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +43,8 @@ EditText file,usernameInput;
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         file = (EditText)findViewById(R.id.file);
+        head = (EditText)findViewById(R.id.filehead);
+        database = new DatabaseSetup(this);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +53,8 @@ EditText file,usernameInput;
                 showname();
             }
         });
+
+        showfiles();
     }
 
     @Override
@@ -64,24 +70,14 @@ EditText file,usernameInput;
         if (id == R.id.action_open) {
 
             Intent myIntent = new Intent(MainActivity.this, SavedFiles.class);
-            myIntent.putExtra("",)
+            myIntent.putExtra("","");
             startActivity(myIntent);
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
-    private void saveActiion(String document ){
-        try {
-            FileOutputStream fileOutputStream = openFileOutput(name,MODE_PRIVATE);
-            fileOutputStream.write(document.getBytes());
-            Toast.makeText(this, "Saved!", Toast.LENGTH_LONG).show();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+
     public void showname(){
         dialog = new AlertDialog.Builder(this);
         LayoutInflater inflater = getLayoutInflater();
@@ -99,7 +95,7 @@ EditText file,usernameInput;
                     Toast.makeText(getApplicationContext(), "Please enter a valid filename!", Toast.LENGTH_SHORT).show();
                 }
                 document = name+".txt";
-                saveActiion(document);
+                savemessage(document);
                 file.setText("");
             }
         });
@@ -115,7 +111,20 @@ EditText file,usernameInput;
     }
 
 
-      void savemessage(){
+      void savemessage(String me){
+          nc = new NoteContent();
+          nc.setBody(file.getText().toString());
+          nc.setHeader(head.getText().toString());
+          nc.setFile_Name(me);
+          database.addData(nc);
 
+
+      }
+      void showfiles(){
+          intent = getIntent();
+          if (intent != null) {
+              String id = intent.getStringExtra("index");
+              database.showfiles(id,file,head,document);
+          }
       }
 }

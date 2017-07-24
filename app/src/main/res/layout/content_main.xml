@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.joebuntu.notepaddemo.MainActivity"
     tools:showIn="@layout/activity_main">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="523dp"
-        android:hint="Type here..."
+        android:layout_height="wrap_content"
+        android:hint="Title...."
         android:gravity="top"
-        android:id="@+id/file"
-        app:layout_constraintTop_toTopOf="parent"/>
+        android:id="@+id/filehead"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        />
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:hint="Content jhhxjcjhjhcjhchere"
+        android:id="@+id/file"
+       />
+
+</LinearLayout>
+
+
+</ScrollView>
